@@ -4,8 +4,6 @@
 
 A Ruby library for integrating with RetellAI's API for automated phone calls with AI agents.
 
-**Note: This is a private gem for exclusive use in Lyris applications.**
-
 ## Table of Contents
 
 - [Installation](#installation)
@@ -183,32 +181,10 @@ The RetellAI client is implemented as a thread-safe singleton using Ruby's built
 
 ## Accessing this Gem
 
-This gem is available in the Lyris private Git repository. To access it:
-
-1. Ensure you have access to the Lyris Git repository
-2. Add to your Gemfile:
+1. Add to your Gemfile:
    ```ruby
     gem 'retell_ai', path: 'gems/retell_ai'
    ```
-
-## Support
-
-For questions or issues with this gem, please contact the Lyris Infrastructure team.
-
-## Development
-
-This gem is private and configured to be published only to the Lyris private gem repository.
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`.
-
-## Contributing
-
-This gem is maintained internally by the Lyris team. To request changes or report bugs:
-
-1. Open an issue in the internal Lyris repository
-2. If appropriate, submit a pull request following the internal development guidelines
 
 ## License
 
